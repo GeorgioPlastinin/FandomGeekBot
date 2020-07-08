@@ -5,7 +5,6 @@ import requests
 from flask import Flask, request
 import os
 
-token = '966598133:AAHQr_TPCqhKVu8Tn6qryXGfiXW7LpfUDQo'
 bot = telebot.TeleBot(token)
 
 server = Flask(__name__)
