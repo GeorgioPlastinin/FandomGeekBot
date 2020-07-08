@@ -443,7 +443,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='' + token)
+    bot.set_webhook(url='https://afternoon-beach-91777.herokuapp.com/' + token)
     return "!", 200
 
 if __name__ == "__main__":
